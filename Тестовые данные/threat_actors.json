@@ -1,0 +1,25 @@
+[{
+	"name": "LummaStealer",
+    "description": "LummaStealer is superstar",
+    "created_at": "2022-07-02T10:10:21.799Z",
+    "modified_at": "2022-08-02T10:10:21.799Z",
+	"first_seen": "2022-07-02T10:10:21.799Z",
+    "last_seen": "2022-08-02T10:10:21.799Z",
+	"tags": [
+        "hellowinpacker"
+    ],
+	"goals": [
+        "espionage"
+    ],
+	"aliases": [
+        "Stealer", "Lumma"
+    ],
+    "industries": ["agriculture"],
+	"countries": [
+        "CHN",
+        "THA",
+        "PHL",
+        "TWN",
+"FJI"]
+   }
+]
