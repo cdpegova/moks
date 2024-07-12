@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenIOC xmlns="http://schemas.mandiant.com/2010/ioc">
+  <metadata>
+    <description>Здесь 3 индикатора</description>
+    <short_description>Пересчитай</short_description>
+  </metadata>
+  <indicators>
+      <Indicator id="2712ecf6-0021-3b03-93ed-fe1a0ecf932a">
+      <description>Принадлежу 85.21.54.126</description>
+      <Context document="AddressObject">
+        <Content type="ip" search="equals">85.21.54.126</Content>
+      </Context>
+      <TimestampIndicator id="ip_timestamps">
+        <CreateTime>2024-03-21T12:49:22.446+00:00</CreateTime>
+        <LastModified>2024-03-22T12:49:22.446+00:00</LastModified>
+        <LastSeen>2024-03-23T12:49:22.446+00:00</LastSeen>
+        <FirstSeen>2024-03-24T12:49:22.446+00:00</FirstSeen>
+        <Collected>2024-03-28T12:49:22.446+00:00</Collected>
+      </TimestampIndicator>
+      <RatingIndicator id="ioc_rating">
+       <Rating>10</Rating>
+      </RatingIndicator>
+      <EntityType>observable</EntityType>
+      <Countries>
+        <Country>RU</Country>
+        <Country>EU</Country>
+        <Country>UA</Country>
+      </Countries>
+      <Incidents>
+        <Incident>9887</Incident>
+      </Incidents>
+      <ASNs>
+        <ASN>977</ASN>
+      </ASNs>
+      <ASNOwners>
+        <ASNOwner>Boris</ASNOwner>
+      </ASNOwners>
+      <Registrars>
+        <Registrars>Sophia999</Registrars>
+      </Registrars>
+    </Indicator>
+	   <Indicator id="2712ecf6-0021-3b03-93ed-fe1a0ecf932a">
+      <description>принадлежу aca8:2013:0236:ef0b:7944:7508:6be3:38ab</description>
+      <Context document="AddressObject">
+        <Content type="ipv6" search="equals">aca8:2013:0236:ef0b:7944:7508:6be3:38ab</Content>
+      </Context>
+      <TimestampIndicator id="ip_timestamps">
+        <CreateTime>2024-03-21T12:49:22.446+00:00</CreateTime>
+        <LastModified>2024-03-22T12:49:22.446+00:00</LastModified>
+        <LastSeen>2024-03-23T12:49:22.446+00:00</LastSeen>
+        <FirstSeen>2024-03-24T12:49:22.446+00:00</FirstSeen>
+        <Collected>2024-03-28T12:49:22.446+00:00</Collected>
+      </TimestampIndicator>
+      <RatingIndicator id="ioc_rating">
+       <Rating>10</Rating>
+      </RatingIndicator>
+      <EntityType>observable</EntityType>
+      <Countries>
+        <Country>RUS</Country>
+        <Country>EU</Country>
+        <Country>UA</Country>
+      </Countries>
+      <Incidents>
+        <Incident>799883</Incident>
+      </Incidents>
+      <ASNs>
+        <ASN>12889555</ASN>
+      </ASNs>
+      <ASNOwners>
+        <ASNOwner>Patrik Z.R.9777</ASNOwner>
+      </ASNOwners>
+      <Registrars>
+        <Registrars>Server223</Registrars>
+      </Registrars>
+    </Indicator>
+    <Indicator id="2a26a172-80f9-3ba7-a65d-0586a71424de">
+      <description>Принадлежу libaprhelper.so</description>
+      <Context document="DNS">
+        <Content type="string" search="equals">libaprhelper.so</Content>
+      </Context>
+            <TimestampIndicator id="ip_timestamps">
+        <CreateTime>2024-03-21T12:49:22.446+00:00</CreateTime>
+        <LastModified>2024-03-22T12:49:22.446+00:00</LastModified>
+        <LastSeen>2024-03-23T12:49:22.446+00:00</LastSeen>
+        <FirstSeen>2024-03-24T12:49:22.446+00:00</FirstSeen>
+        <Collected/>
+      </TimestampIndicator>
+      <RatingIndicator id="ioc_rating">
+       <Rating>60</Rating>
+      </RatingIndicator>
+      <EntityType>ioc</EntityType>
+      <Countries/>
+      <Incidents>
+        <Incident>3422234</Incident>
+      </Incidents>
+      <ASNs>
+        <ASN>3424222</ASN>
+      </ASNs>
+	  <ASNOwners>
+        <ASNOwner>Paеk Н.97у</ASNOwner>
+      <ASNOwners/>
+      <Registrars/>
+	</Indicator>
+  </indicators>
+</OpenIOC>
